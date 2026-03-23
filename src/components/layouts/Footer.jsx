@@ -21,7 +21,7 @@ const Footer = () => {
               {/* 2 */}
               <div className="flex flex-col gap-y-10 lg:flex-row gap-x-20">
                 <div className="services">
-                  <h3 className="text-base text-[#DD3142] font-bold uppercase">Our Services</h3>
+                  <h3 className="text-base text-white font-bold uppercase">Our Services</h3>
                   <ul className="mt-10 flex flex-col gap-[15px] text-white text-[12px]">
                     <li className="cursor-pointer">Plumber Service</li>
                     <li className="cursor-pointer">Bathroom Plumbing Service</li>
@@ -32,7 +32,7 @@ const Footer = () => {
                   </ul>
                 </div>
                 <div className="services">
-                  <h3 className="text-base text-[#DD3142] font-bold uppercase">Our Services</h3>
+                  <h3 className="text-base text-white font-bold uppercase">Our Services</h3>
                   <ul className="mt-10 flex flex-col gap-9 text-white text-[12px]">
                     <li className="w-[151px]">1800-9938-2839 support@plumberpoint.com</li>
                     <li className="w-[91px]">A-507 Mandoli New Delhi, India</li>
@@ -43,8 +43,8 @@ const Footer = () => {
             </div>
             <div className="mt-[11px]">
               <div className="flex flex-col lg:flex-row gap-y-5 justify-between items-center">
-                <p className="text-[10px] text-[#DD3142]">©Copyright 2026 Majharul Islam.</p>
-                <ul className="flex flex-col lg:flex-row items-center gap-y-5 gap-x-[38px] text-[10px] text-[#DD3142]">
+                <p className="text-[10px] text-white">©Copyright 2026 Majharul Islam.</p>
+                <ul className="flex flex-col lg:flex-row items-center gap-y-5 gap-x-[38px] text-[10px] text-white">
                   <li className="cursor-pointer">Term of Services</li>
                   <li className="cursor-pointer">Privacy & policy</li>
                 </ul>
