@@ -13,7 +13,7 @@ const Service = () => {
             <div className="commonBg font-roboto">
                 <div className="pt-15 pb-8">
                     <Container>
-                        <div className="flex justify-center gap-x-[45px] items-center">
+                        <div className="flex justify-center flex-col lg:flex-row gap-y-10 gap-x-[45px] items-center">
                             {/* 1 */}
                             <div className="one text-center flex flex-col items-center">
                                 <Image imgSrc={s1} className={'mx-auto w-[50px]'}/>
@@ -24,7 +24,7 @@ const Service = () => {
                                 </div>
                             </div>
                             {/* divider */}
-                            <div className="h-[225px] w-px bg-white"></div>
+                            <div className="lg:h-[225px] lg:w-px h-px w-full bg-white"></div>
                             {/* 2 */}
                             <div className="one text-center flex flex-col items-center">
                                 <Image imgSrc={s2} className={'mx-auto w-[50px]'}/>
@@ -35,7 +35,7 @@ const Service = () => {
                                 </div>
                             </div>
                             {/* divider */}
-                            <div className="h-[225px] w-px bg-white"></div>
+                            <div className="lg:h-[225px] lg:w-px h-px w-full bg-white"></div>
                             {/* 3 */}
                             <div className="one text-center flex flex-col items-center">
                                 <Image imgSrc={s3} className={'mx-auto w-[50px]'}/>
