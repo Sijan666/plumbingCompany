@@ -44,6 +44,7 @@ const Header = () => {
                                 <FaBarsStaggered onClick={handleShow} className="relative"/>
                                 {show && (
                                     <div className="absolute top-15 left-1/2 -translate-x-1/2 w-[90%] p-5 rounded-md bg-white/10 border border-[#e4e4e4] backdrop-blur-md flex flex-col items-center gap-9">
+                                    {/* navbar */}
                                     <nav>
                                         <ul className="flex flex-col md:flex-row items-center gap-9">
                                             <li className="commonText text-sm font-medium hover:font-bold duration-300 beforeAfter">Home</li>
