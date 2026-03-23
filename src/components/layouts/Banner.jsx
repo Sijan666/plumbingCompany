@@ -1,6 +1,6 @@
 import Container from "../Container"
 import Image from "../Image"
-// import bannerImg from '../../assets/bannerImg.png'
+import bannerImg from '../../assets/bannerImg.png'
 import Button from "../Button"
 
 
@@ -18,9 +18,9 @@ const Banner = () => {
                             <Button btnText={'See All Service'} className={'text-white text-base commonBg pt-[13px] pb-3 px-4.5 rounded-[35px] uppercase'}/>
                         </div>
                         {/* right */}
-                        {/* <div className="right hidden lg:block">
+                        <div className="right hidden lg:block">
                             <Image imgSrc={bannerImg}/>
-                        </div> */}
+                        </div>
                     </div>
                 </Container>
             </div>
