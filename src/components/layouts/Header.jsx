@@ -40,6 +40,7 @@ const Header = () => {
                             <Button btnText={'Request a call Back'} className={'commonBg px-2 py-2.5 rounded-[5px] text-[12px] font-bold text-white hidden lg:block'}/>
                             {/* mobile nav */}
                             <div className="lg:hidden">
+                                {/* navbar icon */}
                                 <FaBarsStaggered onClick={handleShow} className="relative"/>
                                 {show && (
                                     <div className="absolute top-15 left-1/2 -translate-x-1/2 w-[90%] p-5 rounded-md bg-white/10 border border-[#e4e4e4] backdrop-blur-md flex flex-col items-center gap-9">
