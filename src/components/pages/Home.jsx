@@ -1,4 +1,5 @@
 import Banner from "../layouts/Banner"
+import History from "../layouts/History"
 import Service from "../layouts/Service"
 import Welcome from "../layouts/Welcome"
 
@@ -9,6 +10,7 @@ const Home = () => {
         <Banner/>
         <Service/>
         <Welcome/>
+        <History/>
         </>
     )
 }
