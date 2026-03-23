@@ -9,7 +9,7 @@ const Footer = () => {
       <footer>
         <section id="footer" className="bg-black pt-7.5 pb-2.5 font-roboto">
           <Container>
-            <div className="flex flex-col gap-y-10 lg:flex-row justify-between">
+            <div className="flex flex-col gap-y-10 lg:flex-row justify-between pb-[25px] border-b border-white">
               {/* 1 */}
               <div className="logo lg:w-[362px]">
                 <Image imgSrc={footerLogo}/>
@@ -39,6 +39,15 @@ const Footer = () => {
                     <li className="w-[122px]">Mon-Sat 9.00-15:00 Sunday CLOSED</li>
                   </ul>
                 </div>
+              </div>
+            </div>
+            <div className="mt-[11px]">
+              <div className="flex flex-col lg:flex-row gap-y-5 justify-between items-center">
+                <p className="text-[10px] text-[#DD3142]">©Copyright 2026 Majharul Islam.</p>
+                <ul className="flex flex-col lg:flex-row items-center gap-y-5 gap-x-[38px] text-[10px] text-[#DD3142]">
+                  <li className="cursor-pointer">Term of Services</li>
+                  <li className="cursor-pointer">Privacy & policy</li>
+                </ul>
               </div>
             </div>
           </Container>
