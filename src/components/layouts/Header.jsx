@@ -3,16 +3,16 @@ import Button from "../Button"
 import Container from "../Container"
 import Image from "../Image"
 import logo from '/logo.png'
-import { useState } from "react"
+// import { useState } from "react"
 
 
 const Header = () => {
 
-    const [ show , setShow] = useState(false)
+    // const [ show , setShow] = useState(false)
 
-    const handleShow = ()=>{
-        setShow(!show)
-    }
+    // const handleShow = ()=>{
+    //     setShow(!show)
+    // }
 
     return (
         <>
@@ -39,7 +39,7 @@ const Header = () => {
                             {/* btn */}
                             <Button btnText={'Request a call Back'} className={'commonBg px-2 py-2.5 rounded-[5px] text-[12px] font-bold text-white hidden lg:block'}/>
                             {/* mobile nav */}
-                            <div className="lg:hidden">
+                            {/* <div className="lg:hidden">
                                 <FaBarsStaggered onClick={handleShow} className="relative"/>
                                 {show && (
                                     <div className="absolute top-15 left-1/2 -translate-x-1/2 w-[90%] p-5 rounded-md bg-white/10 border border-[#e4e4e4] backdrop-blur-md flex flex-col items-center gap-9">
@@ -55,7 +55,7 @@ const Header = () => {
                                     <Button btnText={'Request a call Back'} className={'commonBg px-2 py-2.5 rounded-[5px] text-[12px] font-bold text-white'}/>
                                     </div>
                                 )}
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </Container>
