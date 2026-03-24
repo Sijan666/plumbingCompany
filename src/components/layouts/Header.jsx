@@ -4,6 +4,7 @@ import Container from "../Container"
 import Image from "../Image"
 import logo from '/logo.png'
 import { useState } from "react"
+import { Link } from "react-router-dom"
 
 
 const Header = () => {
@@ -22,18 +23,40 @@ const Header = () => {
                     <div className="flex justify-between items-center">
                         {/* left side */}
                         <div className="logo">
+                        <Link to={'/'}>
                             <Image imgSrc={logo} className={'w-[70%] lg:w-full'}/>
+                        </Link>
                         </div>
                         {/* .right side */}
                         <div className="right flex items-center gap-10">
                             {/* nav bar */}
                             <nav className="hidden lg:block">
                                 <ul className="flex items-center gap-x-9 ">
-                                    <li className="commonText text-sm font-medium hover:font-bold duration-300 beforeAfter">Home</li>
-                                    <li className="commonText text-sm font-medium hover:font-bold duration-300 beforeAfter">About us</li>
-                                    <li className="commonText text-sm font-medium hover:font-bold duration-300 beforeAfter">Services</li>
-                                    <li className="commonText text-sm font-medium hover:font-bold duration-300 beforeAfter">Project</li>
-                                    <li className="commonText text-sm font-medium hover:font-bold duration-300 beforeAfter">Contact</li>
+                                    <li className="commonText text-sm font-medium hover:font-bold duration-300 beforeAfter">
+                                        <Link to={'/'}>
+                                            Home
+                                        </Link>
+                                    </li>
+                                    <li className="commonText text-sm font-medium hover:font-bold duration-300 beforeAfter">
+                                        <Link to={'/about'}>
+                                            About us
+                                        </Link>
+                                    </li>
+                                    <li className="commonText text-sm font-medium hover:font-bold duration-300 beforeAfter">
+                                        {/* <Link to={'/'}> */}
+                                            Services
+                                        {/* </Link> */}
+                                    </li>
+                                    <li className="commonText text-sm font-medium hover:font-bold duration-300 beforeAfter">
+                                        {/* <Link to={'/'}> */}
+                                            Project
+                                        {/* </Link> */}
+                                    </li>
+                                    <li className="commonText text-sm font-medium hover:font-bold duration-300 beforeAfter">
+                                        {/* <Link to={'/'}> */}
+                                            Contact
+                                        {/* </Link> */}
+                                    </li>
                                 </ul>
                             </nav>
                             {/* btn */}
@@ -47,8 +70,16 @@ const Header = () => {
                                     {/* navbar */}
                                     <nav>
                                         <ul className="flex flex-col md:flex-row items-center gap-9">
-                                            <li className="commonText text-sm font-medium hover:font-bold duration-300 beforeAfter">Home</li>
-                                            <li className="commonText text-sm font-medium hover:font-bold duration-300 beforeAfter">About us</li>
+                                            <li className="commonText text-sm font-medium hover:font-bold duration-300 beforeAfter">
+                                                <Link to={'/'}>
+                                                    Home
+                                                </Link>
+                                            </li>
+                                            <li className="commonText text-sm font-medium hover:font-bold duration-300 beforeAfter">
+                                                <Link to={'/about'}>
+                                                    About us
+                                                </Link>
+                                            </li>
                                             <li className="commonText text-sm font-medium hover:font-bold duration-300 beforeAfter">Services</li>
                                             <li className="commonText text-sm font-medium hover:font-bold duration-300 beforeAfter">Project</li>
                                             <li className="commonText text-sm font-medium hover:font-bold duration-300 beforeAfter">Contact</li>
