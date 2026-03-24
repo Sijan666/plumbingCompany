@@ -1,10 +1,8 @@
 
 import Container from '../Container';
 import { testimoni } from '../data/testimonialApi';
-
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Autoplay } from 'swiper/modules';
-
 import 'swiper/css';
 import 'swiper/css/pagination';
 
@@ -16,8 +14,6 @@ const Testimonial = () => {
                     <Container>
                         <div className="text-center font-roboto">
                             <h3 className='text-white text-[30px]'>Testimonial</h3>
-                            
-                            {/* Swiper Container */}
                             <div className="pt-10">
                                 <Swiper
                                     modules={[Pagination, Autoplay]}
@@ -41,7 +37,6 @@ const Testimonial = () => {
                                     ))}
                                 </Swiper>
                             </div>
-
                         </div>
                     </Container>
                 </div>
