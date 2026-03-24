@@ -14,7 +14,7 @@
 }
 
 .beforeAfter{
-    @apply relative text-[#222222] cursor-pointer hover:text-[#222222] duration-300 after:content-[""] after:absolute after:left-0 after:bottom-0 after:w-[75%] after:h-0.5 after:bg-[#DD3142] after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300
+    @apply relative text-[#222222] cursor-pointer hover:text-[#222222] duration-300 after:content-[""] after:absolute after:left-0 after:bottom-0 after:w-[75%] after:h-0.5 after:bg-[#0D3674] after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300
 }
 
 .swiper-pagination {

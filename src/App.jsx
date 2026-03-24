@@ -2,6 +2,7 @@ import Home from './components/pages/Home'
 import { Routes , Route } from 'react-router-dom'
 import RootLayouts from './components/layouts/RootLayouts'
 import Error from './components/pages/Error'
+import About from './components/pages/About'
 
 
 function App () {
@@ -10,6 +11,7 @@ function App () {
       <Routes>
         <Route path="/" element={<RootLayouts />}>
           <Route index element={<Home/>} />
+          <Route path="/about" element={<About/>} />
         </Route>
           <Route path="*" element={<Error/>} />
       </Routes>
