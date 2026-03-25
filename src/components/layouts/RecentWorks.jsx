@@ -26,6 +26,7 @@ const RecentWorks = () => {
                             </div>
                             {/* 2 */}
                             <div className="two">
+                                {/* img */}
                                 <Image imgSrc={w2} className={'w-full'}/>
                                 <div className="mt-[17px]">
                                     <h4 className='text-[20px] text-black'>Lorem Ipsum is simply dummy text of the printing and typesetting. </h4>
