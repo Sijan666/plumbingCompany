@@ -38,6 +38,7 @@ const RecentWorks = () => {
                             <div className="three">
                                 {/* img */}
                                 <Image imgSrc={w3} className={'w-full'}/>
+                                {/* children div  */}
                                 <div className="mt-[17px]">
                                     <h4 className='text-[20px] text-black'>Lorem Ipsum is simply dummy text of the printing and typesetting. </h4>
                                     <p className='text-[12px] py-3 text-black'>Don’t wrestle with rig assembly and hot, noisy miners at home. We have the fastest bitcoin mining hardware running for you....</p>
