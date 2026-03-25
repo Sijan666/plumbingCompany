@@ -16,6 +16,7 @@ const RecentWorks = () => {
                         <div className="flex flex-col lg:flex-row items-center justify-between gap-[90px]">
                             {/* 1 */}
                             <div className="one">
+                                {/* img */}
                                 <Image imgSrc={w1} className={'w-full'}/>
                                 <div className="mt-[17px]">
                                     <h4 className='text-[20px] text-black'>Lorem Ipsum is simply dummy text of the printing and typesetting. </h4>
