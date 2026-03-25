@@ -36,6 +36,7 @@ const RecentWorks = () => {
                             </div>
                             {/* 3 */}
                             <div className="three">
+                                {/* img */}
                                 <Image imgSrc={w3} className={'w-full'}/>
                                 <div className="mt-[17px]">
                                     <h4 className='text-[20px] text-black'>Lorem Ipsum is simply dummy text of the printing and typesetting. </h4>
