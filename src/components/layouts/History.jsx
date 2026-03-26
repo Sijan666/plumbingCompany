@@ -10,6 +10,7 @@ const History = () => {
                 <Container>
                     {/* parent div */}
                     <div className="flex flex-col lg:flex-row justify-between gap-y-10 gap-x-[98px]">
+                        {/* left side */}
                         <div className="left">
                             <Image imgSrc={histories} className={'w-full'}/>
                         </div>
