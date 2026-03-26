@@ -8,6 +8,7 @@ const History = () => {
         <section id='history'>
             <div className="py-[38px] commonBg font-roboto">
                 <Container>
+                    {/* parent div */}
                     <div className="flex flex-col lg:flex-row justify-between gap-y-10 gap-x-[98px]">
                         <div className="left">
                             <Image imgSrc={histories} className={'w-full'}/>
