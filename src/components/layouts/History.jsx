@@ -14,6 +14,7 @@ const History = () => {
                         <div className="left">
                             <Image imgSrc={histories} className={'w-full'}/>
                         </div>
+                        {/* right side */}
                         <div className="right lg:w-[436px]">
                             <div className="one">
                                 <h3 className='text-white text-[30px] lg:text-[44px] font-bold'>Our Company History</h3>
