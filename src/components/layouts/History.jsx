@@ -16,6 +16,7 @@ const History = () => {
                         </div>
                         {/* right side */}
                         <div className="right lg:w-[436px]">
+                            {/* 1 */}
                             <div className="one">
                                 <h3 className='text-white text-[30px] lg:text-[44px] font-bold'>Our Company History</h3>
                                 <p className='text-sm text-white pt-[18px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
