@@ -20,6 +20,20 @@ const About = () => {
                         <p className='pt-6 text-base text-[#6D6D6D]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen+ book. </p>
                         <p className='py-6 text-base text-[#6D6D6D]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic </p>
                         <p className='text-base text-[#6D6D6D]'>typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <div className="works mt-[58px]">
+                            <div className="grid grid-cols-2 items-center">
+                                {/* 1 */}
+                                <div className="one">
+                                    <div className="flex gap-x-2.5">
+                                        <div className="bg-white h-[15px] w-[15px] rounded-full border-3 border-[#DD3142]"></div>
+                                        <div className="right lg:w-[450px]">
+                                            <h4 className='text-sm text-black font-medium'>Residental Service</h4>
+                                            <p className='pt-2.5 text-base text-[#6D6D6D]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         {/* testimony */}
                         <div className="testimony mt-15">
                             <Testimonial/>
