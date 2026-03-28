@@ -14,7 +14,10 @@ const Services = () => {
                 </div>
                 <div className="mt-15">
                     <Container>
-                        
+                        <div className="text-center">
+                            <h4 className='text-[#0E0E0E] font-medium text-[30px] uppercase'>Our Services</h4>
+                            <p className='text-base text-[#6D6D6D] leading-[133.5%] pt-[15px] px-55'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
                     </Container>
                 </div>
             </div>
