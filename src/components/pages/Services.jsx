@@ -2,6 +2,8 @@ import React from 'react'
 import Container from '../Container'
 import ServiceCommon from '../Servicecommon'
 import { servicesApi } from '../data/servicesApi'
+import Testimonial from '../layouts/Testimonial'
+import RecentWorks from '../layouts/RecentWorks'
 
 const Services = () => {
     return (
@@ -36,6 +38,14 @@ const Services = () => {
                             ))}
                         </div>
                     </Container>
+                </div>
+                {/* testimony */}
+                <div className="testimony mt-15">
+                    <Testimonial/>
+                </div>
+                {/* recentWork */}
+                <div className="testimony mt-15">
+                    <RecentWorks/>
                 </div>
             </div>
         </section>

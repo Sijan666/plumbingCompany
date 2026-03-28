@@ -43,9 +43,9 @@ const Header = () => {
                                         </Link>
                                     </li>
                                     <li className="commonText text-sm font-medium hover:font-bold duration-300 beforeAfter">
-                                        {/* <Link to={'/'}> */}
+                                        <Link to={'/services'}>
                                             Services
-                                        {/* </Link> */}
+                                        </Link>
                                     </li>
                                     <li className="commonText text-sm font-medium hover:font-bold duration-300 beforeAfter">
                                         {/* <Link to={'/'}> */}
@@ -80,7 +80,11 @@ const Header = () => {
                                                     About us
                                                 </Link>
                                             </li>
-                                            <li className="commonText text-sm font-medium hover:font-bold duration-300 beforeAfter">Services</li>
+                                            <li className="commonText text-sm font-medium hover:font-bold duration-300 beforeAfter">
+                                                <Link to={'/services'}>
+                                                    Services
+                                                </Link>
+                                            </li>
                                             <li className="commonText text-sm font-medium hover:font-bold duration-300 beforeAfter">Project</li>
                                             <li className="commonText text-sm font-medium hover:font-bold duration-300 beforeAfter">Contact</li>
                                         </ul>
