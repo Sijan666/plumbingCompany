@@ -43,9 +43,9 @@ const Header = () => {
                                         </Link>
                                     </li>
                                     <li className="commonText text-sm font-medium hover:font-bold duration-300 beforeAfter">
-                                        {/* <Link to={'/services'}> */}
+                                        <Link to={'/services'}>
                                             Services
-                                        {/* </Link> */}
+                                        </Link>
                                     </li>
                                     <li className="commonText text-sm font-medium hover:font-bold duration-300 beforeAfter">
                                         {/* <Link to={'/'}> */}

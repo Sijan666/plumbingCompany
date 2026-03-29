@@ -1,6 +1,6 @@
 import React from 'react'
 import Container from '../Container'
-import ServiceCommon from '../Servicecommon'
+import ServiceCommon from '../ServiceCommon'
 import { servicesApi } from '../data/servicesApi'
 import Testimonial from '../layouts/Testimonial'
 import RecentWorks from '../layouts/RecentWorks'
