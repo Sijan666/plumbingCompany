@@ -6,6 +6,7 @@ const Projects = () => {
         <>
         <section id="projects">
             <div className="font-roboto pb-10">
+                {/* heading img */}
                 <div className="bg-[url('/src/assets/About.png')] pt-[126px] pb-12 bg-center bg-cover bg-no-repeat">
                     <Container>
                         <h3 className='uppercase text-[35px] lg:text-[44px] font-black text-white text-center lg:text-left'>Projects</h3>
