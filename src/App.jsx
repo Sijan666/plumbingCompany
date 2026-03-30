@@ -4,6 +4,7 @@ import RootLayouts from './components/layouts/RootLayouts'
 import Error from './components/pages/Error'
 import About from './components/pages/About'
 import Services from './components/pages/Services'
+import Projects from './components/pages/Projects'
 
 
 function App () {
@@ -14,6 +15,7 @@ function App () {
           <Route index element={<Home/>} />
           <Route path="/about" element={<About/>} />
           <Route path="/services" element={<Services/>} />
+          <Route path="/projects" element={<Projects/>} />
         </Route>
           <Route path="*" element={<Error/>} />
       </Routes>
