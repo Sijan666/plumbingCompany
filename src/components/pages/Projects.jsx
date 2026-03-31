@@ -1,4 +1,8 @@
 import Container from "../Container"
+import { projectsApi } from "../data/projectsApi"
+import RecentWorks from "../layouts/RecentWorks"
+import Testimonial from "../layouts/Testimonial"
+import ProjectCommon from "../ProjectCommon"
 
 
 const Projects = () => {
@@ -23,7 +27,27 @@ const Projects = () => {
                 </div>
                 {/* projects */}
                 <div className="mt-12">
-                    
+                    <Container>
+                        <div className="grid lg:grid-cols-3 grid-cols-2">
+                            {projectsApi.map((item)=>(
+                                <div key={item.id} className="">
+                                    <ProjectCommon
+                                        projectImg={item.projectImg}
+                                        projectType={item.projectType}
+                                        projectName={item.projectName}
+                                    />
+                                </div>
+                            ))}
+                        </div>
+                    </Container>
+                </div>
+                {/* testimony */}
+                <div className="testimony mt-15">
+                    <Testimonial/>
+                </div>
+                {/* recentWork */}
+                <div className="testimony mt-15">
+                    <RecentWorks/>
                 </div>
             </div>
         </section>
