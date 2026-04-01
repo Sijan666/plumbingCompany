@@ -45,7 +45,7 @@ const Contact = () => {
                     </Container>
                 </div>
                 {/* map */}
-                <div className="bg-[#F9F9F9] mt-12.5 py-5 lg:py-0">
+                <div className="bg-[#F9F9F9] mt-12.5 py-5 ">
                     <Container>
                         <div className="flex flex-col md:flex-row justify-between lg:gap-[131px] gap-10">
                             {/* left */}

@@ -11,9 +11,9 @@ const RecentWorks = () => {
         <section id='recentWorks'>
             <div className="pt-[67px] pb-12.5 font-roboto">
                 <Container>
-                    <h3 className='text-[30px] font-medium text-[#0E0E0E] uppercase'>our recent blogs</h3>
+                    <h3 className='text-[30px] font-medium text-[#0E0E0E] uppercase text-center lg:text-left'>our recent blogs</h3>
                     <div className="mt-11">
-                        <div className="flex flex-col lg:flex-row items-center justify-between gap-[90px]">
+                        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 items-center justify-between gap-15 lg:gap-[90px]">
                             {/* 1 */}
                             <div className="one">
                                 {/* img */}
