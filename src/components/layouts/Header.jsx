@@ -52,15 +52,14 @@ const Header = () => {
                                             Projects
                                         </Link>
                                     </li>
-                                    <li className="commonText text-sm font-medium hover:font-bold duration-300 beforeAfter">
-                                        <Link to={'/contact'}>
-                                            Contact
-                                        </Link>
-                                    </li>
                                 </ul>
                             </nav>
                             {/* btn */}
-                            <Button btnText={'Request a call Back'} className={'commonBg px-2 py-2.5 rounded-[5px] text-[12px] font-bold text-white hidden lg:block'}/>
+                            <div className="btn">
+                                <Link to={'/contact'}>
+                                    <Button btnText={'Contact Us'} className={'commonBg px-2 py-2.5 rounded-[5px] text-[12px] font-bold text-white hidden lg:block'}/>
+                                </Link>
+                            </div>
                             {/* mobile nav */}
                             <div className="lg:hidden">
                                 {/* navbar icon */}
@@ -90,15 +89,14 @@ const Header = () => {
                                                     Project
                                                 </Link>
                                             </li>
-                                            <li className="commonText text-sm font-medium hover:font-bold duration-300 beforeAfter">
-                                                <Link to={'/contact'}>
-                                                    Contact
-                                                </Link>
-                                            </li>
                                         </ul>
                                     </nav>
                                     {/* mobile btn */}
-                                    <Button btnText={'Request a call Back'} className={'commonBg px-2 py-2.5 rounded-[5px] text-[12px] font-bold text-white'}/>
+                                    <div className="btn">
+                                        <Link to={'/contact'}>
+                                            <Button btnText={'Contact Us'} className={'commonBg px-2 py-2.5 rounded-[5px] text-[12px] font-bold text-white'}/>
+                                        </Link>
+                                    </div>
                                     </div>
                                 )}
                             </div>

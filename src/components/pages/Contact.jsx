@@ -82,10 +82,6 @@ const Contact = () => {
                         </div>
                     </Container>
                 </div>
-                {/* recentWork */}
-                <div className="testimony mt-15">
-                    <RecentWorks/>
-                </div>
             </div>
         </section>
         </>
