@@ -53,9 +53,9 @@ const Header = () => {
                                         </Link>
                                     </li>
                                     <li className="commonText text-sm font-medium hover:font-bold duration-300 beforeAfter">
-                                        {/* <Link to={'/'}> */}
+                                        <Link to={'/contact'}>
                                             Contact
-                                        {/* </Link> */}
+                                        </Link>
                                     </li>
                                 </ul>
                             </nav>
@@ -90,7 +90,11 @@ const Header = () => {
                                                     Project
                                                 </Link>
                                             </li>
-                                            <li className="commonText text-sm font-medium hover:font-bold duration-300 beforeAfter">Contact</li>
+                                            <li className="commonText text-sm font-medium hover:font-bold duration-300 beforeAfter">
+                                                <Link to={'/contact'}>
+                                                    Contact
+                                                </Link>
+                                            </li>
                                         </ul>
                                     </nav>
                                     {/* mobile btn */}
