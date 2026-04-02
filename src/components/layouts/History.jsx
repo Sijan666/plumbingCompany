@@ -1,7 +1,7 @@
 import React from 'react'
 import Container from '../Container'
 import Image from '../Image'
-import histories from '../../assets/histories.png'
+import histories from '../../assets/histories.webp'
 
 const History = () => {
     return (

@@ -1,9 +1,9 @@
 import React from 'react'
 import Container from '../Container'
 import Image from '../Image'
-import w1 from '../../assets/w1.png'
-import w2 from '../../assets/w2.png'
-import w3 from '../../assets/w3.png'
+import commonProblem from '../../assets/commonProblem.webp'
+import whyRegular from '../../assets/whyRegular.webp'
+import waterTank from '../../assets/waterTank.webp'
 
 const RecentWorks = () => {
     return (
@@ -17,7 +17,7 @@ const RecentWorks = () => {
                             {/* 1 */}
                             <div className="one">
                                 {/* img */}
-                                <Image imgSrc={w1} className={'w-full'}/>
+                                <Image imgSrc={commonProblem} className={'w-full'}/>
                                 {/* children div */}
                                 <div className="mt-[17px]">
                                     <h4 className='text-[20px] text-black'>5 Common Plumbing Problems and How to Fix Them</h4>
@@ -27,7 +27,7 @@ const RecentWorks = () => {
                             {/* 2 */}
                             <div className="two">
                                 {/* img */}
-                                <Image imgSrc={w2} className={'w-full'}/>
+                                <Image imgSrc={whyRegular} className={'w-full'}/>
                                 {/* children div */}
                                 <div className="mt-[17px]">
                                     <h4 className='text-[20px] text-black'>Why Regular Plumbing Maintenance is Essential</h4>
@@ -37,7 +37,7 @@ const RecentWorks = () => {
                             {/* 3 */}
                             <div className="three">
                                 {/* img */}
-                                <Image imgSrc={w3} className={'w-full'}/>
+                                <Image imgSrc={waterTank} className={'w-full'}/>
                                 {/* children div  */}
                                 <div className="mt-[17px]">
                                     <h4 className='text-[20px] text-black'>Top Benefits of Upgrading to a Tankless Water Heater</h4>

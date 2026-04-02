@@ -1,6 +1,6 @@
 import Container from "../Container"
 import Image from "../Image"
-import footerLogo from '../../assets/footerLogo.png'
+import footerLogo from '../../assets/footerLogo.webp'
 
 
 const Footer = () => {
@@ -13,7 +13,7 @@ const Footer = () => {
               {/* 1 */}
               <div className="logo lg:w-[362px]">
                 <Image imgSrc={footerLogo}/>
-                <p className="pt-7.5 text-[12px] text-white">Lore Issue is simply dummy text of the printing and typesetting industry. Lore Issue has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p className="pt-7.5 text-[12px] text-white">Plumber Point is your trusted partner for all residential and commercial plumbing needs. We are committed to delivering fast, reliable, and high-quality services to keep your systems running smoothly</p>
                 <div className="mt-2">
                   
                 </div>

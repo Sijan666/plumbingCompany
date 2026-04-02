@@ -10,17 +10,17 @@ const Services = () => {
         <>
         <section id='services'>
             <div className="font-roboto pb-10">
-                <div className="bg-[url('/src/assets/About.png')] pt-[126px] pb-12 bg-center bg-cover bg-no-repeat">
+                <div className="bg-[url('/src/assets/About.webp')] pt-[126px] pb-12 bg-center bg-cover bg-no-repeat">
                     <Container>
                         <h3 className='uppercase text-[35px] lg:text-[44px] font-black text-white text-center lg:text-left'>Services</h3>
-                        <p className='pt-3.5 text-white text-sm lg:w-[432px] text-center lg:text-left'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+                        <p className='pt-3.5 text-white text-sm lg:w-[432px] text-center lg:text-left'>Explore our comprehensive range of plumbing services designed to meet all your residential and commercial needs. From routine maintenance to complex installations and emergency repairs, our certified experts deliver fast, reliable, and high-quality solutions you can count on.</p>
                     </Container>
                 </div>
                 <div className="mt-15">
                     <Container>
                         <div className="text-center">
                             <h4 className='text-[#0E0E0E] font-medium text-[30px] uppercase'>Our Services</h4>
-                            <p className='text-base text-[#6D6D6D] leading-[133.5%] pt-[15px] lg:px-55'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <p className='text-base text-[#6D6D6D] leading-[133.5%] pt-[15px] lg:px-55'>We provide a wide range of professional plumbing services tailored to meet your specific needs. From minor repairs to large-scale installations, our expert team is committed to delivering efficient and reliable solutions for both residential and commercial properties.</p>
                         </div>
                     </Container>
                 </div>

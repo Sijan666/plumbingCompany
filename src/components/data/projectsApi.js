@@ -1,6 +1,6 @@
-import p1 from '../../assets/p1.png'
-import p2 from '../../assets/p2.png'
-import p3 from '../../assets/p3.png'
+import p1 from '../../assets/p1.webp'
+import p2 from '../../assets/p2.webp'
+import p3 from '../../assets/p3.webp'
 
 export const projectsApi = [
     {

@@ -1,6 +1,6 @@
 import Container from "../Container"
 import Image from "../Image"
-import bannerImg from '../../assets/bannerImg.png'
+import bannerImg from '../../assets/bannerImg.webp'
 import Button from "../Button"
 
 

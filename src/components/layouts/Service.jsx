@@ -1,10 +1,10 @@
 import React from 'react'
 import Container from '../Container'
 import Image from '../Image'
-import s1 from '../../assets/s1.png'
-import s2 from '../../assets/s2.png'
-import s3 from '../../assets/s3.png'
-import Button from '../Button'
+import s1 from '../../assets/s1.webp'
+import s2 from '../../assets/s2.webp'
+import s3 from '../../assets/s3.webp'
+
 
 
 const Service = () => {
