@@ -20,8 +20,8 @@ const RecentWorks = () => {
                                 <Image imgSrc={w1} className={'w-full'}/>
                                 {/* children div */}
                                 <div className="mt-[17px]">
-                                    <h4 className='text-[20px] text-black'>Lorem Ipsum is simply dummy text of the printing and typesetting. </h4>
-                                    <p className='text-[12px] py-3 text-black'>Don’t wrestle with rig assembly and hot, noisy miners at home. We have the fastest bitcoin mining hardware running for you....</p>
+                                    <h4 className='text-[20px] text-black'>5 Common Plumbing Problems and How to Fix Them</h4>
+                                    <p className='text-[12px] py-3 text-black'>Discover the most frequent plumbing issues homeowners face, from leaky faucets to clogged drains, and learn simple tips to resolve them before calling a professional.</p>
                                 </div>
                             </div>
                             {/* 2 */}
@@ -30,8 +30,8 @@ const RecentWorks = () => {
                                 <Image imgSrc={w2} className={'w-full'}/>
                                 {/* children div */}
                                 <div className="mt-[17px]">
-                                    <h4 className='text-[20px] text-black'>Lorem Ipsum is simply dummy text of the printing and typesetting. </h4>
-                                    <p className='text-[12px] py-3 text-black'>Don’t wrestle with rig assembly and hot, noisy miners at home. We have the fastest bitcoin mining hardware running for you....</p>
+                                    <h4 className='text-[20px] text-black'>Why Regular Plumbing Maintenance is Essential</h4>
+                                    <p className='text-[12px] py-3 text-black'>Prevent costly water damage and unexpected emergencies. Find out why scheduling annual plumbing inspections can save you money and extend the lifespan of your pipes.</p>
                                 </div>
                             </div>
                             {/* 3 */}
@@ -40,8 +40,8 @@ const RecentWorks = () => {
                                 <Image imgSrc={w3} className={'w-full'}/>
                                 {/* children div  */}
                                 <div className="mt-[17px]">
-                                    <h4 className='text-[20px] text-black'>Lorem Ipsum is simply dummy text of the printing and typesetting. </h4>
-                                    <p className='text-[12px] py-3 text-black'>Don’t wrestle with rig assembly and hot, noisy miners at home. We have the fastest bitcoin mining hardware running for you....</p>
+                                    <h4 className='text-[20px] text-black'>Top Benefits of Upgrading to a Tankless Water Heater</h4>
+                                    <p className='text-[12px] py-3 text-black'>Thinking about replacing your old water heater? Explore the advantages of tankless systems, including endless hot water, energy efficiency, and significantly lower utility bills.</p>
                                 </div>
                             </div>
                         </div>
