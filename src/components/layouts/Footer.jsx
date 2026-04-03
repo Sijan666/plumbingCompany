@@ -13,10 +13,7 @@ const Footer = () => {
               {/* 1 */}
               <div className="logo lg:w-[362px]">
                 <Image imgSrc={logoNew}/>
-                <p className="pt-7.5 text-[12px] text-white">Plumber Point is your trusted partner for all residential and commercial plumbing needs. We are committed to delivering fast, reliable, and high-quality services to keep your systems running smoothly</p>
-                <div className="mt-2">
-                  
-                </div>
+                <p className="pt-7.5 text-[12px] text-white">FB Harris Plumbing and Heating is your trusted partner for all residential and commercial plumbing needs. We are committed to delivering fast, reliable, and high-quality services to keep your systems running smoothly</p>
               </div>
               {/* 2 */}
               <div className="flex flex-col gap-y-10 lg:flex-row gap-x-20">

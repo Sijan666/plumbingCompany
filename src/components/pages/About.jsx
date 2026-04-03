@@ -11,13 +11,13 @@ const About = () => {
                 <div className="bg-[url('/src/assets/About.webp')] pt-[126px] pb-12 bg-center bg-cover bg-no-repeat">
                     <Container>
                         <h3 className='uppercase text-[35px] lg:text-[44px] font-black text-white text-center lg:text-left'>About us</h3>
-                        <p className='pt-3.5 text-white text-sm lg:w-[432px] text-center lg:text-left'>Welcome to Plumber Point Company, where expertise meets reliability. We understand that plumbing issues can disrupt your daily life, which is why our certified technicians are dedicated to providing prompt and professional service. From routine maintenance to complex installations, we handle every project with care, using modern techniques and high-quality materials to guarantee excellent results.</p>
+                        <p className='pt-3.5 text-white text-sm lg:w-[432px] text-center lg:text-left'>Welcome to FB Harris Plumbing and Heating , where expertise meets reliability. We understand that plumbing issues can disrupt your daily life, which is why our certified technicians are dedicated to providing prompt and professional service. From routine maintenance to complex installations, we handle every project with care, using modern techniques and high-quality materials to guarantee excellent results.</p>
                     </Container>
                 </div>
                 <div className="mt-[42px]">
                     <Container>
-                        <h3 className='text-[#0E0E0E] uppercase text-[30px] font-medium'>Plumber Points Company</h3>
-                        <p className='pt-6 text-base text-[#6D6D6D]'>At Plumber Points Company, we are dedicated to providing top-tier plumbing solutions that ensure the safety, comfort, and functionality of your everyday spaces. Founded on the core principles of honesty, integrity, and hard work, we have proudly grown into a trusted and reliable name in the local plumbing industry.</p>
+                        <h3 className='text-[#0E0E0E] uppercase text-[30px] font-medium'>FB Harris Plumbing and Heating Company</h3>
+                        <p className='pt-6 text-base text-[#6D6D6D]'>At FB Harris Plumbing and Heating Company, we are dedicated to providing top-tier plumbing solutions that ensure the safety, comfort, and functionality of your everyday spaces. Founded on the core principles of honesty, integrity, and hard work, we have proudly grown into a trusted and reliable name in the local plumbing industry.</p>
                         <p className='py-6 text-base text-[#6D6D6D]'>Our team of certified and highly experienced professionals is fully equipped to handle a diverse range of plumbing challenges. Whether it is a complex commercial pipe installation, an urgent midnight emergency repair, or routine residential maintenance, we bring unmatched precision and expertise to every single project.</p>
                         <p className='text-base text-[#6D6D6D]'>We believe that exceptional service goes far beyond simply fixing pipes; it is about building lasting relationships with our clients based on trust. By utilizing the latest industry technology and modern best practices, we guarantee efficient, cost-effective, and durable results that give you complete peace of mind.</p>
                         <div className="works mt-[58px]">
