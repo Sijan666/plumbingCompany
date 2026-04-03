@@ -61,21 +61,21 @@ const Contact = () => {
                                     </div>
                                     <div className="address">
                                         <h4 className='font-bold text-[18px] text-[#DD3142]'>Address:</h4>
-                                        <p className='text-sm pt-2 text-black'>A-67 south Ex Delhi-11002</p>
+                                        <p className='text-sm pt-2 text-black'>South Shields, Tyne and Wear, NE334TL</p>
                                     </div>
                                     <div className="email">
                                         <h4 className='font-bold text-[18px] text-[#DD3142]'>Email:</h4>
-                                        <p className='text-sm pt-2 text-black'>abc@abc.com</p>
+                                        <p className='text-sm pt-2 text-black'>info@fbharrisplumbingandheating.co.uk</p>
                                     </div>
                                     <div className="number">
                                         <h4 className='font-bold text-[18px] text-[#DD3142]'>Phone:</h4>
-                                        <p className='text-sm pt-2 text-black'>1800 - 458495-4455</p>
+                                        <p className='text-sm pt-2 text-black'>07480 304222</p>
                                     </div>
                                 </div>
                             </div>
                             {/* right */}
                             <div className="right lg:w-1/2">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14608.958744179723!2d90.36903533587648!3d23.73883073060752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b7a55cd36f%3A0xfcc5b021faff43ea!2sCreative%20IT%20Institute!5e0!3m2!1sen!2sbd!4v1775021905228!5m2!1sen!2sbd"
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2289.4021418488055!2d-1.4253109!3d54.98358295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487e6f3cfbf300df%3A0xc1f0100cc28bf3e3!2sBanbury%20Terrace%2C%20South%20Shields%20NE33%204TL%2C%20UK!5e0!3m2!1sen!2sbd!4v1775208723338!5m2!1sen!2sbd"
                                 className="w-full h-[450px] rounded-lg">
                                 </iframe>
                             </div>

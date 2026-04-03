@@ -1,6 +1,6 @@
 import Container from "../Container"
 import Image from "../Image"
-import footerLogo from '../../assets/footerLogo.webp'
+import logoNew from '/logoNew.png'
 
 
 const Footer = () => {
@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="flex flex-col gap-y-10 lg:flex-row justify-between pb-[25px] border-b border-white">
               {/* 1 */}
               <div className="logo lg:w-[362px]">
-                <Image imgSrc={footerLogo}/>
+                <Image imgSrc={logoNew}/>
                 <p className="pt-7.5 text-[12px] text-white">Plumber Point is your trusted partner for all residential and commercial plumbing needs. We are committed to delivering fast, reliable, and high-quality services to keep your systems running smoothly</p>
                 <div className="mt-2">
                   
@@ -23,19 +23,22 @@ const Footer = () => {
                 <div className="services">
                   <h3 className="text-base text-white font-bold uppercase">Our Services</h3>
                   <ul className="mt-10 flex flex-col gap-[15px] text-white text-[12px]">
-                    <li className="cursor-pointer">Plumber Service</li>
-                    <li className="cursor-pointer">Bathroom Plumbing Service</li>
-                    <li className="cursor-pointer">Kitchen Plumbing Service</li>
-                    <li className="cursor-pointer">Roof Plumbing Service</li>
-                    <li className="cursor-pointer">Bathroom Plumbing Service</li>
-                    <li className="cursor-pointer">Kitchen Plumbing Service</li>
+                    <li className="">Plumber Service</li>
+                    <li className="">Bathroom Plumbing Service</li>
+                    <li className="">Kitchen Plumbing Service</li>
+                    <li className="">Roof Plumbing Service</li>
+                    <li className="">Bathroom Plumbing Service</li>
+                    <li className="">Kitchen Plumbing Service</li>
                   </ul>
                 </div>
                 <div className="services">
                   <h3 className="text-base text-white font-bold uppercase">Our Services</h3>
                   <ul className="mt-10 flex flex-col gap-9 text-white text-[12px]">
-                    <li className="w-[151px]">1800-9938-2839 support@plumberpoint.com</li>
-                    <li className="w-[91px]">A-507 Mandoli New Delhi, India</li>
+                    <div className="">
+                      <li className="w-[151px]">07480 304222</li>
+                      <li className="">info@fbharrisplumbingandheating.co.uk</li>
+                    </div>
+                    <li className="w-[91px]">South Shields, Tyne and Wear, NE334TL</li>
                     <li className="w-[122px]">Mon-Sat 9.00-15:00 Sunday CLOSED</li>
                   </ul>
                 </div>

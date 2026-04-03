@@ -2,7 +2,7 @@ import { FaBarsStaggered } from "react-icons/fa6"
 import Button from "../Button"
 import Container from "../Container"
 import Image from "../Image"
-import logo from '/logo.png'
+import logoNew from '/logoNew.png'
 import { useState } from "react"
 import { Link } from "react-router-dom"
 
@@ -24,7 +24,7 @@ const Header = () => {
                         {/* left side */}
                         <div className="logo">
                         <Link to={'/'}>
-                            <Image imgSrc={logo} className={'w-[70%] lg:w-full'}/>
+                            <Image imgSrc={logoNew} className={'w-[60%]'}/>
                         </Link>
                         </div>
                         {/* .right side */}
