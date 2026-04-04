@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async"
 import Container from "../Container"
 import { projectsApi } from "../data/projectsApi"
 import RecentWorks from "../layouts/RecentWorks"
@@ -8,6 +9,10 @@ import ProjectCommon from "../ProjectCommon"
 const Projects = () => {
     return (
         <>
+        <Helmet>
+            <title>Our Projects - FB Harris Plumbing and Heating</title>
+            <meta name="description" content="Explore our gallery of completed residential and commercial plumbing projects by FB Harris Plumbing and Heating. Discover the quality of our craftsmanship and reliable solutions." />
+        </Helmet>
         <section id="projects">
             <div className="font-roboto pb-10">
                 {/* heading img */}

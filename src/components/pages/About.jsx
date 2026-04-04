@@ -2,10 +2,15 @@ import React from 'react'
 import Container from '../Container'
 import Testimonial from '../layouts/Testimonial'
 import RecentWorks from '../layouts/RecentWorks'
+import { Helmet } from 'react-helmet-async'
 
 const About = () => {
     return (
         <>
+        <Helmet>
+            <title>About Us - FB Harris Plumbing and Heating</title>
+            <meta name="description" content="Learn more about FB Harris Plumbing and Heating Company. We provide top-tier residential and commercial plumbing solutions with honesty, integrity, and expertise." />
+        </Helmet>
         <section id='about'>
             <div className="font-roboto pb-10">
                 <div className="bg-[url('/src/assets/About.webp')] pt-[126px] pb-12 bg-center bg-cover bg-no-repeat">

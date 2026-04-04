@@ -4,10 +4,15 @@ import ServiceCommon from '../ServiceCommon'
 import { servicesApi } from '../data/servicesApi'
 import Testimonial from '../layouts/Testimonial'
 import RecentWorks from '../layouts/RecentWorks'
+import { Helmet } from 'react-helmet-async'
 
 const Services = () => {
     return (
         <>
+        <Helmet>
+            <title>Our Services - FB Harris Plumbing and Heating</title>
+            <meta name="description" content="Explore our comprehensive range of residential and commercial plumbing services. From routine maintenance to emergency repairs, we deliver fast and reliable solutions." />
+        </Helmet>
         <section id='services'>
             <div className="font-roboto pb-10">
                 <div className="bg-[url('/src/assets/About.webp')] pt-[126px] pb-12 bg-center bg-cover bg-no-repeat">

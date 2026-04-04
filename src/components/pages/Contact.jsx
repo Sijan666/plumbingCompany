@@ -1,11 +1,16 @@
 import React from 'react'
 import Container from '../Container'
 import Button from '../Button'
+import { Helmet } from 'react-helmet-async'
 
 
 const Contact = () => {
     return (
         <>
+        <Helmet>
+            <title>Contact Us - FB Harris Plumbing and Heating</title>
+            <meta name="description" content="Get in touch with FB Harris Plumbing and Heating. Contact us for residential, commercial, or emergency plumbing services in South Shields." />
+        </Helmet>
         <section id='contact'>
             <div className="font-roboto pb-10">
                 {/* heading img */}
