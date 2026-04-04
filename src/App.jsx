@@ -7,6 +7,7 @@ import Services from "./components/pages/Services";
 import Projects from "./components/pages/Projects";
 import Contact from "./components/pages/Contact";
 import ReactLenis from "lenis/react";
+import "lenis/dist/lenis.css";
 
 function App() {
   return (
