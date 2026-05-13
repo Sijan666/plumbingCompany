@@ -53,12 +53,11 @@ const Contact = () => {
     };
 
     const handleSubmit = (e) => {
-        e.preventDefault(); // পেজ রিলোড বন্ধ করা
+        e.preventDefault(); 
         
         if (validateForm()) {
             console.log("Form Submitted Successfully:", formData);
             alert("Message sent successfully!");
-            // সফল হলে ফর্ম রিসেট করতে পারেন
             setFormData({ name: '', email: '', number: '', subject: '', msg: '' });
         }
     };
@@ -91,7 +90,6 @@ const Contact = () => {
                     <Container>
                         <form onSubmit={handleSubmit} className='lg:w-[1070px] mx-auto flex flex-col'>
                             <div className="flex flex-wrap justify-center gap-[38.98px]">
-                                
                                 {/* Name */}
                                 <div className="lg:w-[513.91px] w-full flex flex-col">
                                     <input 
@@ -101,7 +99,6 @@ const Contact = () => {
                                     />
                                     {errors.nameInput && <span className="text-red-500 text-sm mt-1">{errors.nameInput}</span>}
                                 </div>
-
                                 {/* Email */}
                                 <div className="lg:w-[513.91px] w-full flex flex-col">
                                     <input 
@@ -111,7 +108,6 @@ const Contact = () => {
                                     />
                                     {errors.emailInput && <span className="text-red-500 text-sm mt-1">{errors.emailInput}</span>}
                                 </div>
-
                                 {/* Contact */}
                                 <div className="lg:w-[513.91px] w-full flex flex-col">
                                     <input 
@@ -121,7 +117,6 @@ const Contact = () => {
                                     />
                                     {errors.numberInput && <span className="text-red-500 text-sm mt-1">{errors.numberInput}</span>}
                                 </div>
-
                                 {/* Subject */}
                                 <div className="lg:w-[513.91px] w-full flex flex-col">
                                     <input 
@@ -131,7 +126,6 @@ const Contact = () => {
                                     />
                                     {errors.subjectInput && <span className="text-red-500 text-sm mt-1">{errors.subjectInput}</span>}
                                 </div>
-
                                 {/* Description */}
                                 <div className="w-full flex flex-col">
                                     <textarea 
@@ -143,9 +137,7 @@ const Contact = () => {
                                 </div>
                                 
                             </div>
-                            
                             <div className="flex lg:justify-end w-full mt-[22px] justify-center">
-                                {/* Button component-এ type="submit" পাস করা ভালো অথবা ফর্মের onSubmit কাজ করবে */}
                                 <button type="submit" id="submitBtn" className='px-6 pt-4 pb-[13px] bg-[#0D3674] text-white lg:text-[20px] text-base font-bold uppercase rounded-[30px]'>
                                     Send A Message
                                 </button>
