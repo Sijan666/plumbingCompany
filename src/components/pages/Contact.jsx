@@ -52,7 +52,6 @@ const Contact = () => {
         return Object.keys(newErrors).length === 0;
     };
 
-    // 5. ফর্ম সাবমিট হ্যান্ডলার
     const handleSubmit = (e) => {
         e.preventDefault(); // পেজ রিলোড বন্ধ করা
         
