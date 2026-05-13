@@ -27,7 +27,6 @@ const Contact = () => {
         });
     };
 
-    // 4. ভ্যালিডেশন লজিক
     const validateForm = () => {
         let newErrors = {};
         
