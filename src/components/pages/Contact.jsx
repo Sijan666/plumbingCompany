@@ -14,7 +14,6 @@ const Contact = () => {
         msg: ''
     });
 
-    // 2. এরর সংরক্ষণের জন্য State
     const [errors, setErrors] = useState({});
     const handleChange = (e) => {
         const { id, value } = e.target;
