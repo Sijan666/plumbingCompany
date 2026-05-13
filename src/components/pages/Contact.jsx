@@ -1,10 +1,73 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Container from '../Container'
 import Button from '../Button'
 import { Helmet } from 'react-helmet-async'
 
 
 const Contact = () => {
+
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        number: '',
+        subject: '',
+        msg: ''
+    });
+
+    // 2. এরর সংরক্ষণের জন্য State
+    const [errors, setErrors] = useState({});
+    const handleChange = (e) => {
+        const { id, value } = e.target;
+        setFormData({
+            ...formData,
+            [id]: value
+        });
+        setErrors({
+            ...errors,
+            [id]: ''
+        });
+    };
+
+    // 4. ভ্যালিডেশন লজিক
+    const validateForm = () => {
+        let newErrors = {};
+        
+        if (!formData.name.trim()) newErrors.nameInput = "Name is required";
+        
+        if (!formData.email.trim()) {
+            newErrors.emailInput = "Email is required";
+        } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(formData.email)) {
+            newErrors.emailInput = "Invalid email address";
+        }
+
+        if (!formData.number.trim()) {
+            newErrors.numberInput = "Contact number is required";
+        } else if (formData.number.length < 11) {
+            newErrors.numberInput = "Number must be at least 11 digits";
+        }
+
+        if (!formData.subject.trim()) newErrors.subjectInput = "Subject is required";
+        
+        if (!formData.msg.trim()) newErrors.msgInput = "Description is required";
+
+        setErrors(newErrors);
+        // যদি newErrors অবজেক্ট খালি হয়, তার মানে কোনো এরর নেই (True রিটার্ন করবে)
+        return Object.keys(newErrors).length === 0;
+    };
+
+    // 5. ফর্ম সাবমিট হ্যান্ডলার
+    const handleSubmit = (e) => {
+        e.preventDefault(); // পেজ রিলোড বন্ধ করা
+        
+        if (validateForm()) {
+            console.log("Form Submitted Successfully:", formData);
+            alert("Message sent successfully!");
+            // সফল হলে ফর্ম রিসেট করতে পারেন
+            setFormData({ name: '', email: '', number: '', subject: '', msg: '' });
+        }
+    };
+
+
     return (
         <>
         <Helmet>
@@ -30,21 +93,66 @@ const Contact = () => {
                 {/* contact form */}
                 <div className="mt-10 ">
                     <Container>
-                        <form className='lg:w-[1070px] mx-auto flex flex-col'>
-                            <div className="flex flex-wrap justify-center gap-[38.98px] ">
-                                {/* name */}
-                                <input type="text" placeholder='Full Name' className='py-3 border-b border-[#707070] lg:w-[513.91px] w-full outline-none'/>
-                                {/* email */}
-                                <input type="email" placeholder='Email Address' className='py-3 border-b border-[#707070] lg:w-[513.91px] w-full outline-none'/>
-                                {/* contact */}
-                                <input type="number" placeholder='Contact Number' className='py-3 border-b border-[#707070] lg:w-[513.91px] w-full outline-none'/>
-                                {/* email */}
-                                <input type="email" placeholder='Subject' className='py-3 border-b border-[#707070] lg:w-[513.91px] w-full outline-none'/>
-                                {/* description */}
-                                <textarea rows={2} cols={2} placeholder='Description' className='py-3 border-b border-[#707070] outline-none w-full'></textarea>
+                        <form onSubmit={handleSubmit} className='lg:w-[1070px] mx-auto flex flex-col'>
+                            <div className="flex flex-wrap justify-center gap-[38.98px]">
+                                
+                                {/* Name */}
+                                <div className="lg:w-[513.91px] w-full flex flex-col">
+                                    <input 
+                                        type="text" id='name' value={formData.name} onChange={handleChange} 
+                                        placeholder='Full Name' 
+                                        className={`py-3 border-b outline-none ${errors.nameInput ? 'border-red-500' : 'border-[#707070]'}`}
+                                    />
+                                    {errors.nameInput && <span className="text-red-500 text-sm mt-1">{errors.nameInput}</span>}
+                                </div>
+
+                                {/* Email */}
+                                <div className="lg:w-[513.91px] w-full flex flex-col">
+                                    <input 
+                                        type="email" id='email' value={formData.email} onChange={handleChange} 
+                                        placeholder='Email Address' 
+                                        className={`py-3 border-b outline-none ${errors.emailInput ? 'border-red-500' : 'border-[#707070]'}`}
+                                    />
+                                    {errors.emailInput && <span className="text-red-500 text-sm mt-1">{errors.emailInput}</span>}
+                                </div>
+
+                                {/* Contact */}
+                                <div className="lg:w-[513.91px] w-full flex flex-col">
+                                    <input 
+                                        type="number" id='number' value={formData.number} onChange={handleChange} 
+                                        placeholder='Contact Number' 
+                                        className={`py-3 border-b outline-none ${errors.numberInput ? 'border-red-500' : 'border-[#707070]'}`}
+                                    />
+                                    {errors.numberInput && <span className="text-red-500 text-sm mt-1">{errors.numberInput}</span>}
+                                </div>
+
+                                {/* Subject */}
+                                <div className="lg:w-[513.91px] w-full flex flex-col">
+                                    <input 
+                                        type="text" id='subject' value={formData.subject} onChange={handleChange} 
+                                        placeholder='Subject' 
+                                        className={`py-3 border-b outline-none ${errors.subjectInput ? 'border-red-500' : 'border-[#707070]'}`}
+                                    />
+                                    {errors.subjectInput && <span className="text-red-500 text-sm mt-1">{errors.subjectInput}</span>}
+                                </div>
+
+                                {/* Description */}
+                                <div className="w-full flex flex-col">
+                                    <textarea 
+                                        rows={2} id='msg' value={formData.msg} onChange={handleChange} 
+                                        placeholder='Description' 
+                                        className={`py-3 border-b outline-none w-full ${errors.msgInput ? 'border-red-500' : 'border-[#707070]'}`}
+                                    ></textarea>
+                                    {errors.msgInput && <span className="text-red-500 text-sm mt-1">{errors.msgInput}</span>}
+                                </div>
+                                
                             </div>
+                            
                             <div className="flex lg:justify-end w-full mt-[22px] justify-center">
-                                <Button btnText={'Send A Message'} className={'px-6 pt-4 pb-[13px] bg-[#0D3674] text-white lg:text-[20px] text-base font-bold uppercase rounded-[30px]'}/>
+                                {/* Button component-এ type="submit" পাস করা ভালো অথবা ফর্মের onSubmit কাজ করবে */}
+                                <button type="submit" id="submitBtn" className='px-6 pt-4 pb-[13px] bg-[#0D3674] text-white lg:text-[20px] text-base font-bold uppercase rounded-[30px]'>
+                                    Send A Message
+                                </button>
                             </div>
                         </form>
                     </Container>
