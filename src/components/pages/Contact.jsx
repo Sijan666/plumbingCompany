@@ -138,7 +138,7 @@ const Contact = () => {
                                 
                             </div>
                             <div className="flex lg:justify-end w-full mt-[22px] justify-center">
-                                <button type="submit" id="submitBtn" className='px-6 pt-4 pb-[13px] bg-[#0D3674] text-white lg:text-[20px] text-base font-bold uppercase rounded-[30px]'>
+                                <button type="submit" id="submitBtn" className='cursor-pointer px-6 pt-4 pb-[13px] bg-[#0D3674] text-white lg:text-[20px] text-base font-bold uppercase rounded-[30px]'>
                                     Send A Message
                                 </button>
                             </div>
