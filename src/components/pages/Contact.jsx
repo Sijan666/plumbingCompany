@@ -49,7 +49,6 @@ const Contact = () => {
         if (!formData.msg.trim()) newErrors.msgInput = "Description is required";
 
         setErrors(newErrors);
-        // যদি newErrors অবজেক্ট খালি হয়, তার মানে কোনো এরর নেই (True রিটার্ন করবে)
         return Object.keys(newErrors).length === 0;
     };
 
